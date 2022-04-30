@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{DD4D42B2-CDDE-4DC4-83E1-36A10C26EA9E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FacturaApi", "src\FacturaApi\FacturaApi.csproj", "{6166503D-BAA4-44C8-956D-3ED6C51E373B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{9B440AD7-A870-42AB-9994-273E8B891395}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FacturaApi.Test", "test\FacturaApi.Test\FacturaApi.Test.csproj", "{47D7B5E0-B214-4AEC-B02C-E7DB11284B3B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6166503D-BAA4-44C8-956D-3ED6C51E373B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6166503D-BAA4-44C8-956D-3ED6C51E373B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6166503D-BAA4-44C8-956D-3ED6C51E373B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6166503D-BAA4-44C8-956D-3ED6C51E373B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47D7B5E0-B214-4AEC-B02C-E7DB11284B3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47D7B5E0-B214-4AEC-B02C-E7DB11284B3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47D7B5E0-B214-4AEC-B02C-E7DB11284B3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47D7B5E0-B214-4AEC-B02C-E7DB11284B3B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6166503D-BAA4-44C8-956D-3ED6C51E373B} = {DD4D42B2-CDDE-4DC4-83E1-36A10C26EA9E}
+		{47D7B5E0-B214-4AEC-B02C-E7DB11284B3B} = {9B440AD7-A870-42AB-9994-273E8B891395}
+	EndGlobalSection
+EndGlobal
